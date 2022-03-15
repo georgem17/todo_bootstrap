@@ -1,0 +1,103 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+body img{
+  width: 100%;
+}
+
+body .recetas {
+text-align: center;
+justify-content: center;
+}
+
+body .recetas img {
+  width: 300px;
+}
+
+body .recetas h3 {
+  font-size: 15px;
+}
+
+body .recetas div{
+   padding: 20px
+}
+body .recetas button{
+ background-color: transparent;
+}
+body .present h3{
+  text-align: center;
+}
+
+body .present p{
+  padding: 20px;
+  margin: 0px;
+  text-align: center;
+}
+
+
+body .navbar-brand img{
+  width: 200px;
+}
+
+body nav .collapse{
+  justify-content: end;
+  justify-content: flex-end;
+  text-align: end;
+}
+
+.navbar-header {
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.close {
+  display: none; 
+}
+
+@media (min-width: 900px) {
+  body .recetas {
+    display: flex;
+  }
+}
+
+/* registrar */
+
+footer  img{
+  width: 100px;
+}
+
+footer{
+  text-align: center;
+}
+
+footer .ins{
+  width: 75px;
+}
+
+body form {
+  padding: 25px;
+}
+
+/* animacion */
+.anima img{
+  width: 200px;
+}
+
+.anima{
+  animation-name: animacion;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  position: relative;
+  text-align: center;
+
+}
+
+@keyframes animacion {
+  25%{-moz-transform: rotate(339deg);
+    -webkit-transform: rotate(339deg);
+    -o-transform: rotate(339deg);
+    -ms-transform: rotate(339deg);
+    transform: rotate(339deg);}
+}
+
